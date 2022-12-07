@@ -20,13 +20,34 @@
                 <mj-image src="http://127.0.0.1:5500/assets/honeylogo.png" alt="honey logo" href="https://https://www.joinhoney.com/" width="200px"/>
             </mj-column>    
         </mj-section>
+
          <mj-raw>
         <!-- Hero -->
         </mj-raw>
-        <mj-section>
-            <mj-column>
-            
+        <mj-section background-color="rgb(225, 6, 0)" padding="30px 0px 0px">
+            <mj-column width="600px">
+                <mj-text align="center" font-size="40px" padding="0px" color="#fff">
+                    Gifts for them,
+                </mj-text>
+                <mj-text align="center" font-size="40px" padding="0px" color="#fff">
+                    deals for you.
+                </mj-text>
+                <mj-text align="center" font-size="15px" color="#fff">
+                    Not sure what to gift this year? Save up to 50% on deals from UGG, Google Nest, Levi’s, Dyson, Samsung, and more.
+                </mj-text>
+                <mj-button background-color="rgb(242, 182, 52)" color="#750B37" href="#">
+                    Let the Gifting Begin
+                </mj-button>
+                <mj-image src="http://127.0.0.1:5500/assets/topsectionimage.png" alt="promotional image" padding="0px"/>
             </mj-column>
-        </mj-section>    
+        </mj-section>   
+        <mj-section background-color="rgb(117, 11, 55)" padding="0px 0px 15px 0px">
+            <mj-column >
+                <mj-text align="center" color="#fff" font-size="12px" >
+                    *Eligible items only. Redeem points for cash back and other options. Requires account with PayPal in good standing. <a text-decoration="underline" href="#">Terms</a> and store exclusions apply.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        
     </mj-body>
 </mjml>
