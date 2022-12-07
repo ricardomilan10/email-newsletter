@@ -1,0 +1,24 @@
+<mjml>
+<mj-head>
+    <mj-style>
+        *{
+            box-sizing:border-box;
+        }
+    </mj-style>
+    <mj-style>
+        .header{
+            background-color:#fff;
+        }
+    </mj-style>
+</mj-head>
+    <mj-body background-color="#f2f2f2";>
+        <mj-raw>
+        <!-- Header -->
+        </mj-raw>
+        <mj-section css-class="header">
+            <mj-column>
+                <mj-image src="http://127.0.0.1:5500/assets/honeylogo.png" alt="honey logo" href="https://https://www.joinhoney.com/" width="200px"/>
+            </mj-column>    
+        </mj-section>    
+    </mj-body>
+</mjml>
