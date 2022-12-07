@@ -19,6 +19,14 @@
             <mj-column>
                 <mj-image src="http://127.0.0.1:5500/assets/honeylogo.png" alt="honey logo" href="https://https://www.joinhoney.com/" width="200px"/>
             </mj-column>    
+        </mj-section>
+         <mj-raw>
+        <!-- Hero -->
+        </mj-raw>
+        <mj-section>
+            <mj-column>
+            
+            </mj-column>
         </mj-section>    
     </mj-body>
 </mjml>
