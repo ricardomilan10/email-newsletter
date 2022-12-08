@@ -52,9 +52,10 @@
          <mj-raw>
         <!-- Center -->
         </mj-raw>
-        <mj-wrapper>
+
+        <mj-wrapper padding="20px 10px 10px 10px">
             <mj-section background-color="white">
-                <mj-column width="300px">
+                <mj-column padding="0px">
                     <mj-image src="http://127.0.0.1:5500/assets/newsletterimg1.png">
                     </mj-image>
                 </mj-column>
@@ -69,8 +70,9 @@
                 </mj-column>  
             </mj-section>
         </mj-wrapper>
+        
 
-        <mj-wrapper padding="0px 10px 10px 10px">
+        <mj-wrapper padding="10px 10px 10px 10px">
             <mj-section background-color="white">
                 <mj-column padding="50px 40px 40px 20px">
                     <mj-text padding="0px">
@@ -88,7 +90,7 @@
             </mj-section>
         </mj-wrapper>
 
-        <mj-wrapper padding="0px 10px 10px 10px">
+        <mj-wrapper padding="10px 10px 10px 10px">
             <mj-section background-color="white">
                 <mj-column padding="0px">
                     <mj-image src="http://127.0.0.1:5500/assets/newsletterimg1.png">
@@ -103,6 +105,41 @@
                         Gifts for Her
                     </mj-button>
                 </mj-column>  
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-raw>
+        <!-- center banner 1 -->
+        </mj-raw>
+
+        <mj-wrapper>
+            <mj-section background-color="#fbcb4c">
+               <mj-column>
+                    <mj-text>
+                        <h1>Give Grandparents the Best</h1>
+                        <p>Spoil the grandparents this holiday. Shop deals on UGG, Cuisinart, iRobot, Brookstone, and more.</p>
+                    </mj-text>
+                    <mj-button background-color="rgb(204, 75, 6)" padding="0px 0px 0px 25px" align="left">
+                        Thoughtful Gifts
+                    </mj-button>
+               </mj-column>
+               <mj-column>
+                    <mj-image src="http://127.0.0.1:5500/assets/newsletterimg4.png" alt="" /> 
+               </mj-column> 
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-raw>
+        <!-- center banner 1 -->
+        </mj-raw>
+
+        <mj-wrapper>
+            <mj-section background-color="rgb(117, 11, 55);">
+                <mj-column>
+                    <mj-text align=center color="white" padding="0px">
+                        <h1>What about something for you?</h1>
+                    </mj-text>
+                </mj-column>    
             </mj-section>
         </mj-wrapper>
 
