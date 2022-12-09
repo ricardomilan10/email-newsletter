@@ -18,9 +18,9 @@
         <!-- Header -->
         </mj-raw>
 
-        <mj-section css-class="header">
-            <mj-column>
-                <mj-image src="http://127.0.0.1:5500/assets/honeylogo.png" alt="honey logo" href="https://https://www.joinhoney.com/" width="200px"/>
+        <mj-section css-class="header" padding="0px">
+            <mj-column padding="20px 0px 0px 0px">
+                <mj-image src="http://127.0.0.1:5500/assets/honeylogo.png" alt="honey logo" href="https://https://www.joinhoney.com/" width="150px" padding="0px"/>
             </mj-column>    
         </mj-section>
 
@@ -284,17 +284,54 @@
                <mj-text align="center">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
             </mj-column>
         </mj-section>
-            <mj-column>
-               <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img1.png" width="100px"/>
-               <mj-text align="center">Cash Back</mj-text>
-               <mj-text align="center">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
+
+        <mj-section background-color="rgb(238, 238, 238)">
+            <mj-column >
+                <mj-text align="center" color="rgb(117, 117, 117)">Explore</mj-text>      
             </mj-column>
-            <mj-column>
-               <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img1.png" width="100px"/>
-               <mj-text align="center">Cash Back</mj-text>
-               <mj-text align="center">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
+            <mj-column >
+                <mj-text align="center" color="rgb(117, 117, 117)">Droplist</mj-text>      
+            </mj-column>
+            <mj-column >
+                <mj-text align="center" color="rgb(117, 117, 117)">Rewards</mj-text>      
             </mj-column>
         </mj-section>
 
+        <mj-section background-color="rgb(238, 238, 238)" padding="0px 150px 30px 150px">
+            <mj-column padding="0px">
+                <mj-image src="http://127.0.0.1:5500/assets/welcome-social-fb@2x.png" width="20px">     
+            </mj-column>
+            <mj-column padding="0px">
+                <mj-image src="http://127.0.0.1:5500/assets/welcome-social-fb@2x.png" width="20px">     
+            </mj-column>
+            <mj-column padding="0px">
+                <mj-image src="http://127.0.0.1:5500/assets/welcome-social-fb@2x.png" width="20px"> 
+            </mj-column>
+            <mj-column padding="0px">
+                <mj-image src="http://127.0.0.1:5500/assets/welcome-social-fb@2x.png" width="20px"> 
+            </mj-column> 
+        </mj-section>
+
+        <mj-section background-color="white" padding="20px 0px 0px 0px">
+            <mj-column >
+                <mj-text color="rgb(117, 117, 117)" font-size="10px">*Eligible items only. Redeem points for cash back and other options. Requires account with PayPal in good standing. Terms and store exclusions apply.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="white" padding="0px">
+            <mj-column >
+                <mj-text color="rgb(117, 117, 117)" font-size="10px"> Views this email online</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="white" padding="0px" >
+            <mj-column >
+                <mj-text color="rgb(117, 117, 117)" font-size="10px"> You are receiving this message based on your Honey account settings. Unsubscribe or adjust your email preferences.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="white" padding="10px 0px 20px 0px">
+            <mj-column>
+                <mj-text color="rgb(117, 117, 117)" font-size="10px">Copyright © 2022 Honey Science LLC (a PayPal company) All rights reserved. 963 E. 4th Street, Los Angeles, CA 90013  </mj-text>
+            </mj-column>
+        </mj-section>
+           
     </mj-body>
 </mjml>
