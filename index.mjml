@@ -116,8 +116,8 @@
         <!-- center banner 1 -->
         </mj-raw>
 
-        <mj-wrapper>
-            <mj-section background-color="#fbcb4c" padding="0px">
+        <mj-wrapper padding="0px">
+            <mj-section background-color="#fbcb4c" padding="0px"  border="10px solid #f5f5f5">
                 <mj-column padding="0px">
                         <mj-text>
                             <h1>Give Grandparents the Best</h1>
@@ -151,42 +151,41 @@
         <!-- Bottom Squares-->
         </mj-raw>
 
-        <mj-wrapper padding="0px" >
-            <mj-section background-color="white"  padding="0px">
-                <mj-column >
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletter_microsoft.png" width="300px"/>
-                    <mj-text align="center" font-size="10px" line-height="25px">
+        <mj-wrapper padding="0px"  >
+            <mj-section  padding="0px"  background-color="white" >
+                <mj-column width="285px" border-right="10px solid #f5f5f5" >
+                    <mj-image src="http://127.0.0.1:5500/assets/newsletter_microsoft.png" />
+                    <mj-text align="center" font-size="10px" line-height="25px" padding="0px" letter-spacing="0px">
                         <h1>Cyber Week savings. Electrifying deals for the whole family, save on Xbox, Surface, and more.</h1>
                     </mj-text>
-                    <mj-button background-color="rgb(204, 75, 6)" padding="0px 0px 0px 25px" align="center" href="#">
+                    <mj-button background-color="rgb(204, 75, 6)" padding="0px 0px 10px 0px" align="center" href="#">
                         Shop Microsoft
                     </mj-button>
-                    <mj-text align="center" font-size="10px" padding="10px 0px 0px 26px">
+                    <mj-text align="center" font-size="10px" padding="0px 0px 10px 0px">
                         Offer valid through 12/3/2022
                     </mjtext>
                 </mj-column>
-       
-
             
-                <mj-column >
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletter50_pandora.png" width="300px"/>
-                    <mj-text align="center" font-size="10px" line-height="25px" padding="20px 30px 0px 30px">
+                <mj-column width="285px" >
+                    <mj-image src="http://127.0.0.1:5500/assets/newsletter50_pandora.png" />
+                    <mj-text align="center" font-size="10px" line-height="25px" padding="30px 0px 0px 0px">
                         <h1>Take 30% off your favorite gift sets at Pandora.</h1>
                     </mj-text>
-                    <mj-button background-color="rgb(204, 75, 6)" padding="20px 0px 0px 0px" align="center" href="#">
+                    <mj-button background-color="rgb(204, 75, 6)" padding="13px 0px 10px 0px" align="center" href="#">
                         Shop Microsoft
                     </mj-button>
-                    <mj-text align="center" font-size="10px" padding="10px 0px 0px 0px">
+                    <mj-text align="center" font-size="10px" padding="0px 0px 0px 0px">
                         Offer valid through 12/3/2022
                     </mjtext>
+                   
                 </mj-column>
-
+                
             </mj-section>
         </mj-wrapper>
 
         <mj-wrapper padding="0px" >
             <mj-section background-color="white"  padding="0px">
-                <mj-column >
+                <mj-column border-right="10px solid #f5f5f5" border-top="10px solid #f5f5f5">
                     <mj-image src="http://127.0.0.1:5500/assets/newsletter50_att.png" width="300px"/>
                     <mj-text align="center" font-size="10px" line-height="25px">
                         <h1>Get $250 in bill credits when you bring the device you love to AT&T.</h1>
@@ -199,15 +198,15 @@
                     </mjtext>
                 </mj-column>
        
-                <mj-column >
+                <mj-column border-top="10px solid #f5f5f5">>
                     <mj-image src="http://127.0.0.1:5500/assets/newsletter50_quickbooks.png" width="300px"/>
-                    <mj-text align="center" font-size="10px" line-height="25px" padding="20px 30px 25px 30px">
+                    <mj-text align="center" font-size="10px" line-height="25px" padding="20px 30px 16px 30px">
                         <h1>Save 70% on QuickBooks Online Now!</h1>
                     </mj-text>
-                    <mj-button background-color="rgb(204, 75, 6)" padding="0px 0px 0px 0px" align="center" href="#">
+                    <mj-button background-color="rgb(204, 75, 6)" padding="0px 0px 8px 0px" align="center" href="#">
                         Shop Microsoft
                     </mj-button>
-                    <mj-text align="center" font-size="10px" padding="10px 0px 20px 0px">
+                    <mj-text align="center" font-size="10px" padding="0px 0px px 0px">
                         Offer valid through 12/3/2022
                     </mjtext>
                 </mj-column>
@@ -215,30 +214,30 @@
             </mj-section>
         </mj-wrapper>
 
-        <mj-wrapper padding="0px 0px 30px 0px">
+        <mj-wrapper padding="0px 0px 0px 0px">
             <mj-section background-color="white" padding="0px">
-                <mj-column >
+                <mj-column border-right="10px solid #f5f5f5" border-top="10px solid #f5f5f5">>
                     <mj-image src="http://127.0.0.1:5500/assets/newsletter50_life-extension.png" width="300px"/>
                     <mj-text align="center" font-size="10px" line-height="25px">
                         <h1>Cyber Week $50 off $350 + Free Shipping.</h1>
                     </mj-text>
-                    <mj-button background-color="rgb(204, 75, 6)" padding="0px 0px 0px 25px" align="center" href="#">
+                    <mj-button background-color="rgb(204, 75, 6)" padding="0px 0px 0px 20px" align="center" href="#">
                         Shop Microsoft
                     </mj-button>
-                    <mj-text align="center" font-size="10px" padding="10px 0px 0px 26px">
+                    <mj-text align="center" font-size="10px" padding="10px 0px 10px 0px">
                         Offer valid through 12/3/2022
                     </mjtext>
                 </mj-column>
        
-                <mj-column >
+                <mj-column border-top="10px solid #f5f5f5">
                     <mj-image src="http://127.0.0.1:5500/assets/newsletter50_manscaped.png" width="300px"/>
-                    <mj-text align="center" font-size="10px" line-height="20px" padding="10px 30px 0px 30px">
+                    <mj-text align="center" font-size="10px" line-height="20px" padding="0px 10px 23px 10px">
                         <h1>MANSCAPED® Holiday Sale – 20% off + free shipping!</h1>
                     </mj-text>
                     <mj-button background-color="rgb(204, 75, 6)" padding="0px" align="center" href="#">
                         Shop Microsoft
                     </mj-button>
-                    <mj-text align="center" font-size="10px" padding="10px 0px 30px 0px">
+                    <mj-text align="center" font-size="10px" padding="10px 0px 10px 0px">
                         Offer valid through 12/3/2022
                     </mjtext>
                 </mj-column>
@@ -249,8 +248,9 @@
         <mj-raw>
         <!-- Bottom Squares-->
         </mj-raw>
-        
-        <mj-section background-color="white">
+
+        <mj-wrapper padding="0px" border="10px solid #f5f5f5">
+        <mj-section background-color="white" >
             <mj-column>
                 <mj-text align="center" font-size="28px" font-weight="400" >
                     What Makes Savvy Shoppers Savvy:
@@ -262,12 +262,12 @@
         <mj-section background-color="white">
             <mj-column>
                <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img1.png" width="100px"/>
-               <mj-text align="center" font-size="20px" >Cash Back</mj-text>
+               <mj-text align="center" font-size="21px" >Cash Back</mj-text>
                <mj-text align="center" color="#616161" line-height="15px">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
             </mj-column>
             <mj-column>
                <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img2.png" width="100px"/>
-               <mj-text align="center" font-size="20px">Double Cash Back</mj-text>
+               <mj-text align="center" font-size="21px">Double Cash Back</mj-text>
                <mj-text align="center" color="#616161" line-height="15px">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
             </mj-column>
         </mj-section>
@@ -275,17 +275,22 @@
         <mj-section background-color="white">
             <mj-column>
                <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img3.png" width="100px"/>
-               <mj-text align="center" font-size="20px">Droplist</mj-text>
+               <mj-text align="center" font-size="21px">Droplist</mj-text>
                <mj-text align="center" color="#616161">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
             </mj-column>
             <mj-column padding="0px 0px 30px 0px">
                <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img4.png" width="100px"/>
-               <mj-text align="center" font-size="20px">Automatic Coupons</mj-text>
+               <mj-text align="center" font-size="21px">Automatic Coupons</mj-text>
                <mj-text align="center" color="#616161" line-height="15px">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
             </mj-column>
         </mj-section>
+        </mj-wrapper>
 
-        <mj-section background-color="rgb(238, 238, 238)">
+        <mj-raw>
+        <!-- Footer-->
+        </mj-raw>
+
+        <mj-section background-color="rgb(238, 238, 238)" padding="20px 0px 0px 0px">
             <mj-column >
                 <mj-text align="center" color="rgb(117, 117, 117)">Explore</mj-text>      
             </mj-column>
@@ -297,7 +302,7 @@
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="rgb(238, 238, 238)" >
+        <mj-section background-color="rgb(238, 238, 238)" padding="20px 0px 60px 0px" >
         <mj-group>
             <mj-column>
             </mj-column>
@@ -328,15 +333,15 @@
         </mj-section>
         <mj-section background-color="white" padding="0px">
             <mj-column >
-                <mj-text color="rgb(117, 117, 117)" font-size="10px"> Views this email online</mj-text>
+                <mj-text color="rgb(117, 117, 117)" font-size="10px" > <a href="#" text-decoration="underline" color="#757575 !important" >Views this email online</a></mj-text>
             </mj-column>
         </mj-section>
         <mj-section background-color="white" padding="0px" >
             <mj-column >
-                <mj-text color="rgb(117, 117, 117)" font-size="10px"> You are receiving this message based on your Honey account settings. Unsubscribe or adjust your email preferences.</mj-text>
+                <mj-text color="rgb(117, 117, 117)" font-size="10px"> You are receiving this message based on your Honey account settings. <a href="#" text-decoration="underline" color="#757575 !important" >Unsubscribe</a> or adjust your  <a href="#" text-decoration="underline" color="#757575 " >email preferences.</a></mj-text>
             </mj-column>
         </mj-section>
-        <mj-section background-color="white" padding="10px 0px 20px 0px">
+        <mj-section background-color="white" padding="10px 0px 60px 0px">
             <mj-column>
                 <mj-text color="rgb(117, 117, 117)" font-size="10px">Copyright © 2022 Honey Science LLC (a PayPal company) All rights reserved. 963 E. 4th Street, Los Angeles, CA 90013  </mj-text>
             </mj-column>
