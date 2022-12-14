@@ -9,6 +9,12 @@
         .header{
             background-color:#fff;
         }
+
+        @media only screen and (max-width:600px) {
+            .hero-image{
+                width:"546px";
+            }
+        }
     </mj-style>
 </mj-head>
 
@@ -28,7 +34,7 @@
         <!-- Hero -->
         </mj-raw>
 
-        <mj-section background-color="rgb(225, 6, 0)" padding="30px 0px 0px">
+        <mj-section background-color="rgb(225, 6, 0)" padding="30px 0px 0px" >
             <mj-column width="600px">
                 <mj-text align="center" font-size="40px" padding="0px" color="#fff">
                     Gifts for them,
@@ -42,7 +48,7 @@
                 <mj-button background-color="rgb(242, 182, 52)" color="#750B37" href="#">
                     Let the Gifting Begin
                 </mj-button>
-                <mj-image src="http://127.0.0.1:5500/assets/topsectionimage.png" alt="promotional image" padding="0px"/>
+                <mj-image css-class="hero-image" src="http://127.0.0.1:5500/assets/topsectionimage.png" alt="promotional image" padding="0px"/>
             </mj-column>
         </mj-section>   
         <mj-section background-color="rgb(117, 11, 55)" padding="0px 0px 15px 0px">
@@ -153,7 +159,7 @@
 
         <mj-wrapper padding="0px"  >
             <mj-section  padding="0px"  background-color="white" >
-                <mj-column width="285px" border-right="10px solid #f5f5f5" >
+                <mj-column  border-right="10px solid #f5f5f5"  border-top="10px solid #f5f5f5"  >
                     <mj-image src="http://127.0.0.1:5500/assets/newsletter_microsoft.png" />
                     <mj-text align="center" font-size="10px" line-height="25px" padding="0px" letter-spacing="0px">
                         <h1>Cyber Week savings. Electrifying deals for the whole family, save on Xbox, Surface, and more.</h1>
@@ -166,12 +172,12 @@
                     </mjtext>
                 </mj-column>
             
-                <mj-column width="285px" >
+                <mj-column  border-top="10px solid #f5f5f5">
                     <mj-image src="http://127.0.0.1:5500/assets/newsletter50_pandora.png" />
-                    <mj-text align="center" font-size="10px" line-height="25px" padding="30px 0px 0px 0px">
+                    <mj-text align="center" font-size="10px" line-height="25px" padding="28px 15px 0px 0px">
                         <h1>Take 30% off your favorite gift sets at Pandora.</h1>
                     </mj-text>
-                    <mj-button background-color="rgb(204, 75, 6)" padding="13px 0px 10px 0px" align="center" href="#">
+                    <mj-button background-color="rgb(204, 75, 6)" padding="15px 0px 10px 0px" align="center" href="#">
                         Shop Microsoft
                     </mj-button>
                     <mj-text align="center" font-size="10px" padding="0px 0px 0px 0px">
@@ -185,7 +191,7 @@
 
         <mj-wrapper padding="0px" >
             <mj-section background-color="white"  padding="0px">
-                <mj-column border-right="10px solid #f5f5f5" border-top="10px solid #f5f5f5">
+                <mj-column border-right="10px solid #f5f5f5"   border-top="10px solid #f5f5f5">
                     <mj-image src="http://127.0.0.1:5500/assets/newsletter50_att.png" width="300px"/>
                     <mj-text align="center" font-size="10px" line-height="25px">
                         <h1>Get $250 in bill credits when you bring the device you love to AT&T.</h1>
