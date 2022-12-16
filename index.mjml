@@ -3,18 +3,37 @@
     <mj-style>
         *{
             box-sizing:border-box;
+            
         }
+        
     </mj-style>
     <mj-style>
         .header{
             background-color:#fff;
         }
 
-        @media only screen and (max-width:600px) {
-            .hero-image{
-                width:"546px";
+        .center-btn{
+                display:inline-block;
+                text-align:center;
+                border: 1px solid #CC4B06;
+                background-color:#cc4b06;
+                border-radius: 3px;
+                color: #ffffff!important;
+                text-decoration: none;
+                text-decoration-color:white!important;
+                padding: 14px 40px;
+                margin:0 auto;
+            }
+
+         @media  (max-width:600px) {
+            .center-description{
+                text-align:center;
+            }
+            .center-btn{
+                display:block;
             }
         }
+
     </mj-style>
 </mj-head>
 
@@ -35,7 +54,7 @@
         </mj-raw>
 
         <mj-section background-color="rgb(225, 6, 0)" padding="30px 0px 0px" >
-            <mj-column width="600px">
+            <mj-column >
                 <mj-text align="center" font-size="40px" padding="0px" color="#fff">
                     Gifts for them,
                 </mj-text>
@@ -48,7 +67,7 @@
                 <mj-button background-color="rgb(242, 182, 52)" color="#750B37" href="#">
                     Let the Gifting Begin
                 </mj-button>
-                <mj-image css-class="hero-image" src="http://127.0.0.1:5500/assets/topsectionimage.png" alt="promotional image" padding="0px"/>
+                <mj-image css-class="hero-image" src="http://127.0.0.1:5500/assets/topsectionimage.png" alt="promotional image" padding="0px" width="600px" />
             </mj-column>
         </mj-section>   
         <mj-section background-color="rgb(117, 11, 55)" padding="0px 0px 15px 0px">
@@ -63,24 +82,25 @@
         <!-- Center -->
         </mj-raw>
 
-        <mj-wrapper padding="0px">
-            <mj-section background-color="white" border="10px solid #f5f5f5">
-                <mj-column padding="0px">
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletterimg1.png">
-                    </mj-image>
+            <mj-section background-color="white"> 
+               <mj-column>
+                    <mj-image src="http://127.0.0.1:5500/assets/newsletterimg1.png" align="center" padding="20px"/>   
                 </mj-column>
-                <mj-column padding="50px 40px 40px 20px">
-                    <mj-text padding="0px">
-                        <h1>Make Her Day</h1>
-                        <p>Gifts from UGG, adidas, Our Place, Dyson, and more - all starting at $20.</p>
+                <mj-column padding="50px 10px 10px 10px">
+                    <mj-text padding="0px" line-height="19px" >
+                        <div class="center-description">
+                            <h1>Make Her Day</h1>
+                            <p color="#616161";>Gifts from UGG, adidas, Our Place, Dyson, and more - all starting at $20.</p>
+                        </div>
                     </mj-text>
-                    <mj-button background-color="rgb(204, 75, 6)" padding="0px" align="left">
-                        Gifts for Her
-                    </mj-button>
-                </mj-column>  
+                        <mj-text padding="0px" >
+                            <div class="center-btn">
+                                <a  >Gifts for Her</a>
+                            <div>
+                        </mj-text> 
+                    </div>
+                </mj-column>
             </mj-section>
-        </mj-wrapper>
-        
 
         <mj-wrapper padding="0px">
             <mj-section background-color="white" border="10px solid #f5f5f5">
