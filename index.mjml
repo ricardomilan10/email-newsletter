@@ -22,17 +22,28 @@
                 text-decoration: none;
                 text-decoration-color:white!important;
                 padding: 14px 40px;
-                margin:0 auto;
+                margin-right:15px;
             }
 
-         @media  (max-width:600px) {
+            .center-description{
+                 padding:50px 10px 10px 10px;
+            }
+
+         @media  (max-width:480px) {
             .center-description{
                 text-align:center;
             }
             .center-btn{
                 display:block;
+                margin:0px 15px;
             }
         }
+         @media  (max-width:480px) {
+            .center-description{
+                padding:0px;
+            }
+         }
+
 
     </mj-style>
 </mj-head>
@@ -84,18 +95,19 @@
 
             <mj-section background-color="white"> 
                <mj-column>
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletterimg1.png" align="center" padding="20px"/>   
+                    <mj-image src="http://127.0.0.1:5500/assets/newsletterimg1.png" align="center" padding="20px 15px 20px 20px"/>   
                 </mj-column>
-                <mj-column padding="50px 10px 10px 10px">
+                
+                <mj-column >
                     <mj-text padding="0px" line-height="19px" >
-                        <div class="center-description">
+                        <div class="center-description" >
                             <h1>Make Her Day</h1>
                             <p color="#616161";>Gifts from UGG, adidas, Our Place, Dyson, and more - all starting at $20.</p>
                         </div>
                     </mj-text>
-                        <mj-text padding="0px" >
-                            <div class="center-btn">
-                                <a  >Gifts for Her</a>
+                        <mj-text padding="0px 0px 0px 0px " >
+                            <div class="center-btn" padding="0px 10px 0px 0px " >
+                                <a>Gifts for Her</a>
                             <div>
                         </mj-text> 
                     </div>
