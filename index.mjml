@@ -37,6 +37,10 @@
                 display:block;
                 margin:0px 15px;
             }
+             .center-btn-2{
+                display:block;
+                margin:0px 15px;
+            }
         }
          @media  (max-width:480px) {
             .center-description{
@@ -115,19 +119,23 @@
             </mj-section>
 
         <mj-wrapper padding="0px">
-            <mj-section background-color="white" border="10px solid #f5f5f5">
-                <mj-column padding="50px 40px 40px 20px">
-                    <mj-text padding="0px">
-                        <h1>Gifts to Impress Him</h1>
-                        <p>Save up to 30% off on Nike, PlayStation, Samsung, Art of Shaving, and more – from $20.</p>
-                    </mj-text>
-                    <mj-button background-color="rgb(204, 75, 6)" padding="0px" align="left">
-                        Gifts for Him
-                    </mj-button>
+            <mj-section background-color="white" border="10px solid #f5f5f5" direction="rtl" >
+                <mj-column >
+                    <mj-image src="http://127.0.0.1:5500/assets/newsletter50_img2.png" >
+                    </mj-image>
                 </mj-column>
                 <mj-column >
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletter50_img2.png">
-                    </mj-image>
+                    <mj-text padding="0px" line-height="19px" >
+                        <div class="center-description" >
+                            <h1>Make His Day</h1>
+                            <p color="#616161";>Save up to 30% off on Nike, PlayStation, Samsung, Art of Shaving, and more – from $20.</p>
+                        </div>
+                    </mj-text>    
+                    <mj-text padding="0px 0px 0px 0px " >
+                        <div class="center-btn" padding="0px 10px 0px 0px " margin="10px">
+                            <a>Gifts for Him</a>
+                        <div>
+                    </mj-text>
                 </mj-column>  
             </mj-section>
         </mj-wrapper>
