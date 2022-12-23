@@ -7,6 +7,7 @@
         }
         
     </mj-style>
+    <mj-breakpoint width="600px" />
     <mj-style>
         .header{
             background-color:#fff;
@@ -24,12 +25,27 @@
                 padding: 14px 40px;
                 margin-right:15px;
             }
+            .center-btn-2{
+                display:inline-block;
+                text-align:center;
+                border: 1px solid #CC4B06;
+                background-color:#cc4b06;
+                border-radius: 3px;
+                color: #ffffff!important;
+                text-decoration: none;
+                text-decoration-color:white!important;
+                padding: 14px 40px;
+                margin-left:10px;
+            }
 
             .center-description{
                  padding:50px 10px 10px 10px;
             }
-
-         @media  (max-width:480px) {
+            .center-banner-1-description{
+                padding:0px 0px 0px 20px;
+            }
+    
+         @media  (max-width:600px) {
             .center-description{
                 text-align:center;
             }
@@ -41,8 +57,16 @@
                 display:block;
                 margin:0px 15px;
             }
+            .center-banner-1-description{
+                padding:0px;
+                text-align:center;
+            }
+            .center-banner-1-description-text{
+                padding:0px;
+                text-align:center;
+            }
         }
-         @media  (max-width:480px) {
+         @media  (max-width:600px) {
             .center-description{
                 padding:0px;
             }
@@ -132,7 +156,7 @@
                         </div>
                     </mj-text>    
                     <mj-text padding="0px 0px 0px 0px " >
-                        <div class="center-btn" padding="0px 10px 0px 0px " margin="10px">
+                        <div class="center-btn-2" padding="0px 10px 0px 0px " margin="10px">
                             <a>Gifts for Him</a>
                         <div>
                     </mj-text>
@@ -146,15 +170,20 @@
                     <mj-image src="http://127.0.0.1:5500/assets/newsletter50_img3.png">
                     </mj-image>
                 </mj-column>
-                <mj-column padding="50px 40px 40px 20px">
-                    <mj-text padding="0px">
-                        <h1>Kid-Approved Gifts</h1>
-                        <p>What holiday dreams are made of. Up to 45% off Nintendo, LEGO, Marvel, and more.</p>
+                <mj-column >
+                    <mj-text padding="0px" line-height="19px" >
+                        <div class="center-description" >
+                            <h1>Kid-Approved Gifts</h1>
+                            <p color="#616161";>What holiday dreams are made of. Up to 45% off Nintendo, LEGO, Marvel, and more.</p>
+                        </div>
                     </mj-text>
-                    <mj-button background-color="rgb(204, 75, 6)" padding="0px" align="left">
-                        Gifts for Kids
-                    </mj-button>
-                </mj-column>  
+                        <mj-text padding="0px 0px 0px 0px " >
+                            <div class="center-btn" padding="0px 10px 0px 0px " >
+                                <a>Gifts for kids</a>
+                            <div>
+                        </mj-text> 
+                    </div>
+                </mj-column>
             </mj-section>
         </mj-wrapper>
 
@@ -163,18 +192,23 @@
         </mj-raw>
 
         <mj-wrapper padding="0px">
-            <mj-section background-color="#fbcb4c" padding="0px"  border="10px solid #f5f5f5">
+            <mj-section background-color="#fbcb4c" padding="0px"  border="10px solid #f5f5f5" direction="rtl">
                 <mj-column padding="0px">
-                        <mj-text>
-                            <h1>Give Grandparents the Best</h1>
-                            <p>Spoil the grandparents this holiday. Shop deals on UGG, Cuisinart, iRobot, Brookstone, and more.</p>
-                        </mj-text>
-                        <mj-button background-color="rgb(204, 75, 6)" padding="0px 0px 0px 25px" align="left">
-                            Thoughtful Gifts
-                        </mj-button>
-                </mj-column>
-                <mj-column padding="0px">
-                        <mj-image src="http://127.0.0.1:5500/assets/newsletterimg4.png" alt="" /> 
+                    <mj-image src="http://127.0.0.1:5500/assets/newsletterimg4.png" alt="" align="center" padding="0px"/> 
+                </mj-column>    
+
+                <mj-column css-class="center-banner-1-description">
+                  <mj-text padding="10px" >
+                        <div class="center-banner-1-description-text">    
+                            <h1 style="line-height:25px">Give Grandparents the Best</h1>
+                            <p  style="line-height:15px">Spoil the grandparents this holiday. Shop deals on UGG, Cuisinart, iRobot, Brookstone, and more.</p>
+                        </div>    
+                  </mj-text>
+                  <mj-text padding="0px 0px 10px 0px " >
+                            <div class="center-btn-2" >
+                                <a >Thoughtful Gifts</a>
+                            <div>
+                  </mj-text>   
                 </mj-column>
             </mj-section>
         </mj-wrapper>
