@@ -13,6 +13,14 @@
             background-color:#fff;
         }
 
+        .center-img-2{
+            padding:0px 0px 0px 20px;
+        }
+
+        .center-btn-section{
+               padding:0px 0px 0px 0px; 
+            }
+
         .center-btn{
                 display:inline-block;
                 text-align:center;
@@ -23,7 +31,8 @@
                 text-decoration: none;
                 text-decoration-color:white!important;
                 padding: 14px 40px;
-                margin-right:15px;
+                margin:0px 0px 0px 20px;
+                
             }
             .center-btn-2{
                 display:inline-block;
@@ -35,27 +44,46 @@
                 text-decoration: none;
                 text-decoration-color:white!important;
                 padding: 14px 40px;
-                margin-left:10px;
+                margin:0px 0px 0px 20px;
             }
 
             .center-description{
-                 padding:50px 10px 10px 10px;
+                 padding:50px 25px 10px 25px;
             }
             .center-banner-1-description{
                 padding:0px 0px 0px 20px;
             }
+
+            .bottom-square-img{
+               margin:0 auto; 
+               display:block;
+            }
     
          @media  (max-width:600px) {
+            .center-img{
+                width:65%!important;
+                margin:0 auto;
+                display:block;
+                
+            }
+            .center-img-2{
+                width:65%!important;
+                margin:0 auto;
+                display:block;
+                
+            }
             .center-description{
                 text-align:center;
             }
             .center-btn{
                 display:block;
                 margin:0px 15px;
+                
             }
              .center-btn-2{
                 display:block;
                 margin:0px 15px;
+                
             }
             .center-banner-1-description{
                 padding:0px;
@@ -64,6 +92,9 @@
             .center-banner-1-description-text{
                 padding:0px;
                 text-align:center;
+            }
+            .bottom-square-img{
+               width:100%;
             }
         }
          @media  (max-width:600px) {
@@ -121,20 +152,21 @@
         <!-- Center -->
         </mj-raw>
 
-            <mj-section background-color="white"> 
+            <mj-section background-color="white" border="10px solid #f5f5f5"> 
                <mj-column>
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletterimg1.png" align="center" padding="20px 15px 20px 20px"/>   
+                    <mj-text>
+                        <img class="center-img" src="http://127.0.0.1:5500/assets/newsletterimg1.png" align="center" padding="20px 15px 20px 20px" width="250px"/>
+                    </mj-text>  
                 </mj-column>
-                
                 <mj-column >
                     <mj-text padding="0px" line-height="19px" >
                         <div class="center-description" >
                             <h1>Make Her Day</h1>
-                            <p color="#616161";>Gifts from UGG, adidas, Our Place, Dyson, and more - all starting at $20.</p>
+                            <p color="#616161">Gifts from UGG, adidas, Our Place, Dyson, and more - all starting at $20.</p>
                         </div>
                     </mj-text>
-                        <mj-text padding="0px 0px 0px 0px " >
-                            <div class="center-btn" padding="0px 10px 0px 0px " >
+                        <mj-text css-class="center-btn-section" padding="0px 0px 0px 0px" >
+                            <div class="center-btn" padding="0px " >
                                 <a>Gifts for Her</a>
                             <div>
                         </mj-text> 
@@ -144,9 +176,10 @@
 
         <mj-wrapper padding="0px">
             <mj-section background-color="white" border="10px solid #f5f5f5" direction="rtl" >
-                <mj-column >
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletter50_img2.png" >
-                    </mj-image>
+                <mj-column padding="0px" >
+                   <mj-text padding="0px">
+                        <img class="center-img-2" src="http://127.0.0.1:5500/assets/newsletter50_img2.png" align="center" width="250px"  />
+                    </mj-text>  
                 </mj-column>
                 <mj-column >
                     <mj-text padding="0px" line-height="19px" >
@@ -155,8 +188,8 @@
                             <p color="#616161";>Save up to 30% off on Nike, PlayStation, Samsung, Art of Shaving, and more – from $20.</p>
                         </div>
                     </mj-text>    
-                    <mj-text padding="0px 0px 0px 0px " >
-                        <div class="center-btn-2" padding="0px 10px 0px 0px " margin="10px">
+                    <mj-text padding="0px 0px" css-class="center-btn-section">
+                        <div class="center-btn-2" padding="0px ">
                             <a>Gifts for Him</a>
                         <div>
                     </mj-text>
@@ -167,8 +200,9 @@
         <mj-wrapper padding="0px">
             <mj-section background-color="white" border="10px solid #f5f5f5">
                 <mj-column padding="0px">
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletter50_img3.png">
-                    </mj-image>
+                    <mj-text padding="10px 25px">
+                        <img class="center-img" src="http://127.0.0.1:5500/assets/newsletter50_img3.png" align="center" width="250px" />
+                    </mj-text> 
                 </mj-column>
                 <mj-column >
                     <mj-text padding="0px" line-height="19px" >
@@ -177,8 +211,8 @@
                             <p color="#616161";>What holiday dreams are made of. Up to 45% off Nintendo, LEGO, Marvel, and more.</p>
                         </div>
                     </mj-text>
-                        <mj-text padding="0px 0px 0px 0px " >
-                            <div class="center-btn" padding="0px 10px 0px 0px " >
+                        <mj-text padding="0px 0px" >
+                            <div class="center-btn" padding="0px" >
                                 <a>Gifts for kids</a>
                             <div>
                         </mj-text> 
@@ -194,7 +228,7 @@
         <mj-wrapper padding="0px">
             <mj-section background-color="#fbcb4c" padding="0px"  border="10px solid #f5f5f5" direction="rtl">
                 <mj-column padding="0px">
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletterimg4.png" alt="" align="center" padding="0px"/> 
+                    <mj-image src="http://127.0.0.1:5500/assets/newsletterimg4.png" alt="" align="center" padding="0px" width="265px"/> 
                 </mj-column>    
 
                 <mj-column css-class="center-banner-1-description">
@@ -233,8 +267,10 @@
 
         <mj-wrapper padding="0px"  >
             <mj-section  padding="0px"  background-color="white" >
-                <mj-column  border-right="10px solid #f5f5f5"  border-top="10px solid #f5f5f5"  >
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletter_microsoft.png" />
+                <mj-column  border-right="10px solid #f5f5f5"  border-top="10px solid #f5f5f5" >
+                    <mj-text>
+                        <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter_microsoft.png" width="250px"  />
+                    </mj-text>
                     <mj-text align="center" font-size="10px" line-height="25px" padding="0px" letter-spacing="0px">
                         <h1>Cyber Week savings. Electrifying deals for the whole family, save on Xbox, Surface, and more.</h1>
                     </mj-text>
@@ -247,7 +283,9 @@
                 </mj-column>
             
                 <mj-column  border-top="10px solid #f5f5f5">
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletter50_pandora.png" />
+                    <mj-text>
+                        <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_pandora.png" width="250px" />
+                    </mj-text>
                     <mj-text align="center" font-size="10px" line-height="25px" padding="28px 15px 0px 0px">
                         <h1>Take 30% off your favorite gift sets at Pandora.</h1>
                     </mj-text>
@@ -266,7 +304,9 @@
         <mj-wrapper padding="0px" >
             <mj-section background-color="white"  padding="0px">
                 <mj-column border-right="10px solid #f5f5f5"   border-top="10px solid #f5f5f5">
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletter50_att.png" width="300px"/>
+                    <mj-text>
+                        <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_att.png" width="250px" />
+                    </mj-text>
                     <mj-text align="center" font-size="10px" line-height="25px">
                         <h1>Get $250 in bill credits when you bring the device you love to AT&T.</h1>
                     </mj-text>
@@ -279,7 +319,9 @@
                 </mj-column>
        
                 <mj-column border-top="10px solid #f5f5f5">>
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletter50_quickbooks.png" width="300px"/>
+                    <mj-text>
+                        <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_quickbooks.png" width="250px" />
+                    </mj-text>
                     <mj-text align="center" font-size="10px" line-height="25px" padding="20px 30px 16px 30px">
                         <h1>Save 70% on QuickBooks Online Now!</h1>
                     </mj-text>
@@ -297,7 +339,9 @@
         <mj-wrapper padding="0px 0px 0px 0px">
             <mj-section background-color="white" padding="0px">
                 <mj-column border-right="10px solid #f5f5f5" border-top="10px solid #f5f5f5">>
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletter50_life-extension.png" width="300px"/>
+                    <mj-text>
+                        <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_life-extension.png" width="250px" />
+                    </mj-text>
                     <mj-text align="center" font-size="10px" line-height="25px">
                         <h1>Cyber Week $50 off $350 + Free Shipping.</h1>
                     </mj-text>
@@ -310,7 +354,9 @@
                 </mj-column>
        
                 <mj-column border-top="10px solid #f5f5f5">
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletter50_manscaped.png" width="300px"/>
+                    <mj-text>
+                        <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_manscaped.png" width="250px"  />
+                    </mj-text>
                     <mj-text align="center" font-size="10px" line-height="20px" padding="0px 10px 23px 10px">
                         <h1>MANSCAPED® Holiday Sale – 20% off + free shipping!</h1>
                     </mj-text>
