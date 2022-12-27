@@ -67,9 +67,10 @@
                 
             }
             .center-img-2{
-                width:65%!important;
+                width:59%!important;
                 margin:0 auto;
                 display:block;
+                padding:0px;
                 
             }
             .center-description{
@@ -265,9 +266,9 @@
         <!-- Bottom Squares-->
         </mj-raw>
 
-        <mj-wrapper padding="0px"  >
+        <mj-wrapper padding="0px"  border="10px solid #f5f5f5">
             <mj-section  padding="0px"  background-color="white" >
-                <mj-column  border-right="10px solid #f5f5f5"  border-top="10px solid #f5f5f5" >
+                <mj-column >
                     <mj-text>
                         <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter_microsoft.png" width="250px"  />
                     </mj-text>
@@ -282,7 +283,7 @@
                     </mjtext>
                 </mj-column>
             
-                <mj-column  border-top="10px solid #f5f5f5">
+                <mj-column >
                     <mj-text>
                         <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_pandora.png" width="250px" />
                     </mj-text>
@@ -303,7 +304,7 @@
 
         <mj-wrapper padding="0px" >
             <mj-section background-color="white"  padding="0px">
-                <mj-column border-right="10px solid #f5f5f5"   border-top="10px solid #f5f5f5">
+                <mj-column border-right="10px solid #f5f5f5"  border-left="10px solid #f5f5f5" >
                     <mj-text>
                         <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_att.png" width="250px" />
                     </mj-text>
@@ -318,7 +319,7 @@
                     </mjtext>
                 </mj-column>
        
-                <mj-column border-top="10px solid #f5f5f5">>
+                <mj-column border-right="10px solid #f5f5f5" >
                     <mj-text>
                         <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_quickbooks.png" width="250px" />
                     </mj-text>
@@ -336,7 +337,7 @@
             </mj-section>
         </mj-wrapper>
 
-        <mj-wrapper padding="0px 0px 0px 0px">
+        <mj-wrapper padding="0px 0px 0px 0px" border="10px solid #f5f5f5">
             <mj-section background-color="white" padding="0px">
                 <mj-column border-right="10px solid #f5f5f5" border-top="10px solid #f5f5f5">>
                     <mj-text>
@@ -386,29 +387,33 @@
         </mj-section>
 
         <mj-section background-color="white">
-            <mj-column>
-               <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img1.png" width="100px"/>
-               <mj-text align="center" font-size="21px" >Cash Back</mj-text>
-               <mj-text align="center" color="#616161" line-height="15px">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
-            </mj-column>
-            <mj-column>
-               <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img2.png" width="100px"/>
-               <mj-text align="center" font-size="21px">Double Cash Back</mj-text>
-               <mj-text align="center" color="#616161" line-height="15px">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
-            </mj-column>
+            <mj-group>
+                <mj-column>
+                    <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img1.png" width="100px"/>
+                    <mj-text align="center" font-size="21px" >Cash Back</mj-text>
+                    <mj-text align="center" color="#616161" line-height="15px">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
+                </mj-column>
+                <mj-column>
+                    <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img2.png" width="100px"/>
+                    <mj-text align="center" font-size="21px">Double Cash Back</mj-text>
+                    <mj-text align="center" color="#616161" line-height="15px">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
+                </mj-column>
+            </mj-group>
         </mj-section>
 
         <mj-section background-color="white">
-            <mj-column>
-               <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img3.png" width="100px"/>
-               <mj-text align="center" font-size="21px">Droplist</mj-text>
-               <mj-text align="center" color="#616161">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
-            </mj-column>
-            <mj-column padding="0px 0px 30px 0px">
-               <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img4.png" width="100px"/>
-               <mj-text align="center" font-size="21px">Automatic Coupons</mj-text>
-               <mj-text align="center" color="#616161" line-height="15px">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
-            </mj-column>
+            <mj-group>
+                <mj-column>
+                <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img3.png" width="100px"/>
+                <mj-text align="center" font-size="21px">Droplist</mj-text>
+                <mj-text align="center" color="#616161">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
+                </mj-column>
+                <mj-column padding="0px 0px 30px 0px">
+                <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img4.png" width="100px"/>
+                <mj-text align="center" font-size="21px">Automatic Coupons</mj-text>
+                <mj-text align="center" color="#616161" line-height="15px">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
+                </mj-column>
+            </mj-group>
         </mj-section>
         </mj-wrapper>
 
