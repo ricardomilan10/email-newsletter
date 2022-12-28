@@ -205,7 +205,7 @@
                 <mj-button background-color="rgb(242, 182, 52)" color="#750B37" href="#">
                     Let the Gifting Begin
                 </mj-button>
-                <mj-image css-class="hero-image" src="http://127.0.0.1:5500/assets/topsectionimage.png" alt="promotional image" padding="0px" width="600px" />
+                <mj-image css-class="hero-image" src="https://i.imgur.com/wptBsb5.png" alt="promotional image" padding="0px" width="600px" />
             </mj-column>
         </mj-section>   
         <mj-section background-color="rgb(117, 11, 55)" padding="0px 0px 15px 0px">
@@ -223,7 +223,7 @@
             <mj-section background-color="white" border="10px solid #f5f5f5"> 
                <mj-column>
                     <mj-text>
-                        <img class="center-img" src="http://127.0.0.1:5500/assets/newsletterimg1.png" align="center" padding="20px 15px 20px 20px" width="250px"/>
+                        <img class="center-img" src="https://i.imgur.com/BXHLxsx.png" alt="gifts for women" align="center" padding="20px 15px 20px 20px" width="250px"/>
                     </mj-text>  
                 </mj-column>
                 <mj-column >
@@ -246,7 +246,7 @@
             <mj-section background-color="white" border="10px solid #f5f5f5" direction="rtl" >
                 <mj-column padding="0px" >
                    <mj-text padding="0px">
-                        <img class="center-img-2" src="http://127.0.0.1:5500/assets/newsletter50_img2.png" align="center" width="250px"  />
+                        <img class="center-img-2" src="https://i.imgur.com/QLLyWLU.png" alt="gifts for men" align="center" width="250px"  />
                     </mj-text>  
                 </mj-column>
                 <mj-column >
@@ -269,7 +269,7 @@
             <mj-section background-color="white" border="10px solid #f5f5f5">
                 <mj-column padding="0px">
                     <mj-text padding="10px 25px">
-                        <img class="center-img" src="http://127.0.0.1:5500/assets/newsletter50_img3.png" align="center" width="250px" />
+                        <img class="center-img" src="https://i.imgur.com/iCwKbzK.png" alt="gifts for kids" align="center" width="250px" />
                     </mj-text> 
                 </mj-column>
                 <mj-column >
@@ -296,7 +296,7 @@
         <mj-wrapper padding="0px">
             <mj-section background-color="#fbcb4c" padding="0px"  border="10px solid #f5f5f5" direction="rtl">
                 <mj-column padding="0px">
-                    <mj-image src="http://127.0.0.1:5500/assets/newsletterimg4.png" alt="" align="center" padding="0px" width="265px"/> 
+                    <mj-image src="https://i.imgur.com/xCWan7n.png" alt="gifts for grandparents" align="center" padding="0px" width="265px"/> 
                 </mj-column>    
 
                 <mj-column css-class="center-banner-1-description">
@@ -338,7 +338,7 @@
             <mj-section  padding="0px"  background-color="white" >
                 <mj-column width="300px" css-class="bottom-square-border" >
                     <mj-text>
-                        <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter_microsoft.png" width="250px"  />
+                        <img class="bottom-square-img" alt="microsoft products" src="https://i.imgur.com/zbpRF1S.png" width="250px"  />
                     </mj-text>
                     <mj-text align="center" font-size="10px" line-height="25px" padding="0px" letter-spacing="0px">
                         <h1>Cyber Week savings. Electrifying deals for the whole family, save on Xbox, Surface, and more.</h1>
@@ -356,7 +356,7 @@
             
                 <mj-column width="300px" css-class="bottom-square-border">
                     <mj-text>
-                        <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_pandora.png" width="250px" />
+                        <img class="bottom-square-img" alt="pandora products" src="https://i.imgur.com/e4LDJk2.png" width="250px" />
                     </mj-text>
                     <mj-text align="center" font-size="10px" line-height="25px" padding="25px 10px 25px 5px" >
                         <h1>Take 30% off your favorite gift sets at Pandora.</h1>
@@ -379,7 +379,7 @@
             <mj-section background-color="white"  padding="0px" >
                 <mj-column  width="300px" css-class="bottom-square-border">
                     <mj-text>
-                        <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_att.png" width="250px" />
+                        <img class="bottom-square-img" alt="att products" src="https://i.imgur.com/2tHmn2P.png" width="250px" />
                     </mj-text>
                     <mj-text align="center" font-size="10px" line-height="25px">
                         <h1>Get $250 in bill credits when you bring the device you love to AT&T.</h1>
@@ -396,7 +396,7 @@
        
                 <mj-column width="300px" css-class="bottom-square-border">
                     <mj-text>
-                        <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_quickbooks.png" width="250px" />
+                        <img class="bottom-square-img" src="https://i.imgur.com/UEbeCkX.png" alt="quickbooks products" width="250px" />
                     </mj-text>
                     <mj-text align="center" font-size="10px" line-height="25px" padding="30px 0px 15px 0px">
                         <h1>Save 70% on QuickBooks Online Now!</h1>
@@ -418,7 +418,7 @@
             <mj-section background-color="white" padding="0px" >
                 <mj-column  width="300px" css-class="bottom-square-border">
                     <mj-text>
-                        <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_life-extension.png" width="250px" />
+                        <img class="bottom-square-img" src="https://i.imgur.com/u0xT5Al.png" alt="life extension products" width="250px" />
                     </mj-text>
                     <mj-text align="center" font-size="10px" line-height="25px">
                         <h1>Cyber Week $50 off $350 + Free Shipping.</h1>
@@ -435,7 +435,7 @@
        
                 <mj-column width="300px" css-class="bottom-square-border">
                     <mj-text>
-                        <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_manscaped.png" width="250px"  />
+                        <img class="bottom-square-img" src="https://i.imgur.com/Vexbw5W.png" alt="mancaped products" width="250px"  />
                     </mj-text>
                     <mj-text align="center" font-size="10px" line-height="20px" padding="14px 0px 16px 0px">
                         <h1>MANSCAPED® Holiday Sale 20% off + free shipping!</h1>
@@ -470,12 +470,12 @@
         <mj-section background-color="white" >
             <mj-group>
                 <mj-column>
-                    <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img1.png" width="100px"/>
+                    <mj-image src="https://i.imgur.com/n0MUJDw.png" alt="cash back icon" width="100px"/>
                     <mj-text align="center" font-size="21px" >Cash Back</mj-text>
                     <mj-text align="center" color="#616161" line-height="18px">Rack up points that you can redeem for cash back, gift cards or PayPal shopping credit</mj-text> 
                 </mj-column>
                 <mj-column>
-                    <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img2.png" width="100px"/>
+                    <mj-image src="https://i.imgur.com/GCJnqTH.png" alt="double cash back icon" width="100px"/>
                     <mj-text align="center" font-size="21px">Double Cash Back</mj-text>
                     <mj-text align="center" color="#616161" line-height="18px">You could earn 2x cash back when you purchase eligible items at top stores</mj-text> 
                 </mj-column>
@@ -485,12 +485,12 @@
         <mj-section background-color="white">
             <mj-group>
                 <mj-column>
-                <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img3.png" width="100px"/>
+                <mj-image src="https://i.imgur.com/rGY8T7M.png" width="100px" alt="droplist icon"/>
                 <mj-text align="center" font-size="21px">Droplist</mj-text>
-                <mj-text align="center" color="#616161" line-height="18px">Save what you want andwe’ll let you know when the price drops</mj-text> 
+                <mj-text align="center" color="#616161" line-height="18px">Save what you want and we’ll let you know when the price drops</mj-text> 
                 </mj-column>
                 <mj-column padding="0px 0px 30px 0px">
-                <mj-image src="http://127.0.0.1:5500/assets/bottom-module_img4.png" width="100px"/>
+                <mj-image src="https://i.imgur.com/826KAzh.png" width="100px" alt="automatic icon"/>
                 <mj-text align="center" font-size="21px">Automatic Coupons</mj-text>
                 <mj-text align="center" color="#616161" line-height="18px">PayPal Honey looks forcoupons at over 30,000 stores – we got you</mj-text> 
                 </mj-column>
@@ -504,13 +504,19 @@
 
         <mj-section background-color="rgb(238, 238, 238)" padding="20px 0px 0px 0px">
             <mj-column >
-                <mj-text align="center" color="rgb(117, 117, 117)">Explore</mj-text>      
+              <mj-text align="center" >
+                <a style="color:rgb(117, 117, 117);cursor:pointer;">Explore</a>
+              </mj-text>
             </mj-column>
             <mj-column >
-                <mj-text align="center" color="rgb(117, 117, 117)">Droplist</mj-text>      
+                <mj-text align="center" >
+                <a style="color:rgb(117, 117, 117);cursor:pointer;">Droplist</a>
+              </mj-text>     
             </mj-column>
             <mj-column >
-                <mj-text align="center" color="rgb(117, 117, 117)">Rewards</mj-text>      
+               <mj-text align="center" >
+                <a style="color:rgb(117, 117, 117);cursor:pointer;">Rewards</a>
+              </mj-text>     
             </mj-column>
         </mj-section>
 
@@ -520,16 +526,16 @@
             </mj-column>
         
             <mj-column padding="0px" >
-                <mj-image src="http://127.0.0.1:5500/assets/welcome-social-fb@2x.png" width="20px" padding="0px"  height="20px">
+                <mj-image src="https://i.imgur.com/l4GarZp.png" alt="facebook icon" href="#" width="20px" padding="0px"  height="20px">
             </mj-column>
             <mj-column padding="0px" >
-                <mj-image src="http://127.0.0.1:5500/assets/welcome-social-instagram@2x.png" width="20px" padding="0px" height="20px">     
+                <mj-image src="https://i.imgur.com/70khMHR.png" alt="instagram icon" href="#" width="20px" padding="0px" height="20px">     
             </mj-column>
             <mj-column padding="0px" >
-                <mj-image src="http://127.0.0.1:5500/assets/welcome-social-pinterest@2x.png" width="20px" padding="0px" height="20px"> 
+                <mj-image src="https://i.imgur.com/rvJKSQD.png" alt="pintrest icon" href="#" width="20px" padding="0px" height="20px"> 
             </mj-column>
             <mj-column padding="0px" >
-                <mj-image src="http://127.0.0.1:5500/assets/welcome-social-twitter@2x.png" width="20px" padding="0px" height="20px"> 
+                <mj-image src="https://i.imgur.com/FZBiBs0.png" alt="twitter icon" href="#" width="20px" padding="0px" height="20px"> 
             </mj-column>
              
              <mj-column>
