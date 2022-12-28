@@ -183,7 +183,7 @@
 
         <mj-section css-class="header" padding="10px 0px">
             <mj-column padding="20px 0px 0px 0px">
-                <mj-image src="http://127.0.0.1:5500/assets/honeylogo.png" alt="honey logo" href="https://https://www.joinhoney.com/" width="150px" padding="0px"/>
+                <mj-image src="https://i.imgur.com/RoJW3bP.jpg" alt="honey logo" href="https://www.joinhoney.com/" width="150px" padding="0px"/>
             </mj-column>    
         </mj-section>
 
