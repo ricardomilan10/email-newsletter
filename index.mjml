@@ -438,14 +438,14 @@
                         <img class="bottom-square-img" src="http://127.0.0.1:5500/assets/newsletter50_manscaped.png" width="250px"  />
                     </mj-text>
                     <mj-text align="center" font-size="10px" line-height="20px" padding="14px 0px 16px 0px">
-                        <h1>MANSCAPED® Holiday Sale – 20% off + free shipping!</h1>
+                        <h1>MANSCAPED® Holiday Sale 20% off + free shipping!</h1>
                     </mj-text>
                     <mj-text padding="0px" >
                         <div class="center-btn-5" padding="0px" >
                             <a>Shop Manscaped</a>
                         <div>
                     </mj-text>
-                    <mj-text align="center" font-size="10px" padding="10px 0px 10px 0px">
+                    <mj-text align="center" font-size="10px" padding="10px 16px 10px 0px">
                         Offer valid through 12/3/2022
                     </mjtext>
                 </mj-column>
