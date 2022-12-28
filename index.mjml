@@ -540,17 +540,17 @@
 
         <mj-section background-color="white" padding="20px 0px 0px 0px">
             <mj-column >
-                <mj-text color="rgb(117, 117, 117)" font-size="10px">*Eligible items only. Redeem points for cash back and other options. Requires account with PayPal in good standing. Terms and store exclusions apply.</mj-text>
+                <mj-text color="rgb(117, 117, 117)" font-size="10px">*Eligible items only. Redeem points for cash back and other options. Requires account with PayPal in good standing. <a href="#" style="text-decoration:underline;color:#757575;">Terms</a> and store exclusions apply.</mj-text>
             </mj-column>
         </mj-section>
         <mj-section background-color="white" padding="0px">
             <mj-column >
-                <mj-text color="rgb(117, 117, 117)" font-size="10px" > <a href="#" text-decoration="underline" color="#757575 !important" >Views this email online</a></mj-text>
+                <mj-text color="rgb(117, 117, 117)" font-size="10px" > <a href="#" style="text-decoration:underline;color:#757575;" >Views this email online</a></mj-text>
             </mj-column>
         </mj-section>
         <mj-section background-color="white" padding="0px" >
             <mj-column >
-                <mj-text color="rgb(117, 117, 117)" font-size="10px"> You are receiving this message based on your Honey account settings. <a href="#" text-decoration="underline" color="#757575 !important" >Unsubscribe</a> or adjust your  <a href="#" text-decoration="underline" color="#757575 " >email preferences.</a></mj-text>
+                <mj-text color="rgb(117, 117, 117)" font-size="10px"> You are receiving this message based on your Honey account settings. <a href="#" style="text-decoration:underline;color:#757575;">Unsubscribe</a> or adjust your  <a href="#" style="text-decoration:underline;color:#757575;">email preferences.</a></mj-text>
             </mj-column>
         </mj-section>
         <mj-section background-color="white" padding="10px 0px 60px 0px">
